@@ -1,6 +1,8 @@
 # vitest/vite unable to alias module
 
-I am replacing my old Jest tests with vitest but I am unable to resolve modules using aliases, similar to my old setup.
+https://github.com/vitest-dev/vitest/issues/1638
+
+I am replacing my old Jest tests with Vitest but I am unable to resolve modules using aliases, similar to my old setup.
 
 ## How to reproduce
 
@@ -14,7 +16,7 @@ RangeError: Can not convert <> to a Fragment (looks like multiple versions of pr
  ❯ NodeType.create node_modules/.pnpm/prosemirror-model@1.14.3/node_modules/prosemirror-model/dist/index.js:1974:60
 ```
 
-Running the same test with jest `pnpm jes` passes:
+Running the same test with jest `pnpm jest` passes:
 ```
  PASS  test/failing.test.ts
   test which loads the same module with different versions
