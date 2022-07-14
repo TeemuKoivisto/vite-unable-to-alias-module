@@ -1,6 +1,4 @@
-// import { describe, expect, it } from 'vitest'
 import { schema } from '@manuscripts/manuscript-transform'
-// const { schema } = await import('@manuscripts/manuscript-transform')
 import { Node as PMNode, Schema } from 'prosemirror-model'
 
 import { setupEditor } from './setupEditor'
